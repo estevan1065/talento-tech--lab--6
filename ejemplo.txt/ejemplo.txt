@@ -1,0 +1,201 @@
+Microsoft Windows [Versión 10.0.22631.4391]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>code.
+"code." no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>code .
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git init
+Initialized empty Git repository in C:/Users/ESTEBAN/OneDrive/Desktop/activada 6.1/.git/
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git add index.html
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git commit -m "version con index.html y titulo primario"
+[master (root-commit) cf6fdad] version con index.html y titulo primario
+ 1 file changed, 13 insertions(+)
+ create mode 100644 index.html
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git add .
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git commit -m "nueva version ddsarrollada incluye titulo h3"
+[master c2d782f] nueva version ddsarrollada incluye titulo h3
+ 1 file changed, 1 insertion(+)
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>gi status
+"gi" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git log
+commit c2d782f58633a70920664b18cdf5a25739bc8807 (HEAD -> master)
+Author: estevan yesid sanchez <sanchezvelasquezestevan@gmail.com>
+Date:   Wed Nov 13 17:27:29 2024 -0500
+
+    nueva version ddsarrollada incluye titulo h3
+
+commit cf6fdada8f24ac8db48b7bafb75e7f5a23e1112f
+Author: estevan yesid sanchez <sanchezvelasquezestevan@gmail.com>
+Date:   Wed Nov 13 17:23:45 2024 -0500
+
+    version con index.html y titulo primario
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git branch
+* master
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git branch rama-version-3
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git branch
+* master
+  rama-version-3
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git chekout rama-version-3
+git: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git checkout rama-version-3
+Switched to branch 'rama-version-3'
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git branch
+  master
+* rama-version-3
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git status
+On branch rama-version-3
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git add .
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git status
+On branch rama-version-3
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git commit -m "nueva version 3 rama-version 3 incluye-titulo h4"
+[rama-version-3 db66ebf] nueva version 3 rama-version 3 incluye-titulo h4
+ 1 file changed, 1 insertion(+)
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>gi log
+"gi" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git log
+commit db66ebf6da16d2b238f557ee54e1729d012b66e8 (HEAD -> rama-version-3)
+Author: estevan yesid sanchez <sanchezvelasquezestevan@gmail.com>
+Date:   Wed Nov 13 17:37:05 2024 -0500
+
+    nueva version 3 rama-version 3 incluye-titulo h4
+
+commit c2d782f58633a70920664b18cdf5a25739bc8807 (master)
+Author: estevan yesid sanchez <sanchezvelasquezestevan@gmail.com>
+Date:   Wed Nov 13 17:27:29 2024 -0500
+
+    nueva version ddsarrollada incluye titulo h3
+
+commit cf6fdada8f24ac8db48b7bafb75e7f5a23e1112f
+Author: estevan yesid sanchez <sanchezvelasquezestevan@gmail.com>
+Date:   Wed Nov 13 17:23:45 2024 -0500
+
+    version con index.html y titulo primario
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git checkout master
+Switched to branch 'master'
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git branch
+* master
+  rama-version-3
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git merge rama-version-3
+Updating c2d782f..db66ebf
+Fast-forward
+ index.html | 1 +
+ 1 file changed, 1 insertion(+)
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git log
+commit db66ebf6da16d2b238f557ee54e1729d012b66e8 (HEAD -> master, rama-version-3)
+Author: estevan yesid sanchez <sanchezvelasquezestevan@gmail.com>
+Date:   Wed Nov 13 17:37:05 2024 -0500
+
+    nueva version 3 rama-version 3 incluye-titulo h4
+
+commit c2d782f58633a70920664b18cdf5a25739bc8807
+Author: estevan yesid sanchez <sanchezvelasquezestevan@gmail.com>
+Date:   Wed Nov 13 17:27:29 2024 -0500
+
+    nueva version ddsarrollada incluye titulo h3
+
+commit cf6fdada8f24ac8db48b7bafb75e7f5a23e1112f
+Author: estevan yesid sanchez <sanchezvelasquezestevan@gmail.com>
+Date:   Wed Nov 13 17:23:45 2024 -0500
+
+    version con index.html y titulo primario
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git remote add origin https://github.com/estevan1065/talento-tech--lab--6.git
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 1.01 KiB | 207.00 KiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/estevan1065/talento-tech--lab--6.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\ESTEBAN\OneDrive\Desktop\activada 6.1>https://github.com/estevan1065/talento-tech--lab--6.git
